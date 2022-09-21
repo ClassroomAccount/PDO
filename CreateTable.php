@@ -1,4 +1,5 @@
 <?php
+global $pdo;
 require 'connect.php';
 
 $sql = [
@@ -19,3 +20,4 @@ try {
     echo $e->getMessage();
 }
 //PDO connection automatically closes when exiting script
+//
